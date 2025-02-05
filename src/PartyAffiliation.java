@@ -6,7 +6,7 @@ public class PartyAffiliation {
         Scanner input = new Scanner(System.in);
         String userAffiliation;
         System.out.println("Thank you for sharing your information. Please select your party affiliation below: \n Democrat - D \t Republican - R \t Independent - I");
-        System.out.println("Your selection for party affiliation is: ");
+        System.out.print("Your selection for party affiliation is: ");
         userAffiliation = input.nextLine();
         userAffiliation = userAffiliation.toUpperCase();
         if(userAffiliation.equals("D"))
