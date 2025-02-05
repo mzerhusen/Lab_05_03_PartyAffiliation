@@ -23,7 +23,7 @@ public class PartyAffiliation {
         }
         else
         {
-            System.out.println("You selected " + userAffiliation + " your imagination determines what you get!");
+            System.out.println("You selected a non-standard party, " + userAffiliation + "!");
         }
     }
 }
