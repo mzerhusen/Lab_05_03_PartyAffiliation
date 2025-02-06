@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class PartyAffiliation {
+public class PartyAffiliation
+{
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
